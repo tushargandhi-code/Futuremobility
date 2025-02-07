@@ -1,0 +1,12 @@
+.cursor{
+    cursor: pointer;
+}
+body{
+    background: antiquewhite;
+  }
+
+  .setting{
+    height: 200px;
+    width: 700px;
+  }
+  
