@@ -21,54 +21,45 @@
         </div>
       </header>
 
-    <!-- Full-Screen Slider Container -->
-  <div class="relative w-full h-screen">
-
-    <!-- Slider -->
-    <div class="relative overflow-hidden w-full h-full">
-      <div class="flex transition-transform duration-700" id="slider">
-        
-        <!-- Slide 1 -->
-        <div class=" w-full h-full flex-shrink-0">
-          <img src="https://media.automotiveworld.com/app/uploads/2021/01/07163257/Future-mobility-megatrends.jpg"
-           class="w-full h-full object-cover" alt="Slide 1">
-           
-        </div>
-        
-        <!-- Slide 2 -->
-        <div class="w-full h-full flex-shrink-0">
-          <img src="https://plus.unsplash.com/premium_photo-1661421687248-7bb863c60723?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZ1dHVyZXxlbnwwfHwwfHx8MA%3D%3D" class="w-full h-full object-cover" alt="Slide 2">
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="w-full h-full flex-shrink-0">
-          <img src="https://media.licdn.com/dms/image/v2/D4E12AQESd6DdIizqHQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1723230455828?e=2147483647&v=beta&t=HlCemgxnPv8yjowFTSgi2JEaxzzR3ktJbi3aM-79nyE" class="w-full h-full object-cover" alt="Slide 3">
+      <div class="relative w-full h-screen overflow-hidden">
+        <div id="slider" class="flex transition-transform duration-700 ease-in-out">
+            
+            <div class="flex-shrink-0 w-full h-full">
+                <img src="https://media.automotiveworld.com/app/uploads/2021/01/07163257/Future-mobility-megatrends.jpg" alt="Slide 1"
+                    class="w-full h-full object-cover">
+            </div>
+            
+            <div class="flex-shrink-0 w-full h-full">
+                <img src="  https://plus.unsplash.com/premium_photo-1661421687248-7bb863c60723?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZ1dHVyZXxlbnwwfHwwfHx8MA%3D%3D
+                " alt="Slide 2"
+                    class="w-full h-full object-cover">
+            </div>
+            
+            <div class="flex-shrink-0 w-full h-full">
+                <img src="  https://media.licdn.com/dms/image/v2/D4E12AQESd6DdIizqHQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1723230455828?e=2147483647&v=beta&t=HlCemgxnPv8yjowFTSgi2JEaxzzR3ktJbi3aM-79nyE" alt="Slide 3"
+                    class="w-full h-full object-cover">
+            </div>
         </div>
 
-      </div>
-
-      <!-- Navigation Buttons -->
-      <button id="prevBtn" class="absolute top-1/2 left-0 transform -translate-y-1/2 px-4 py-2 bg-black bg-opacity-50 text-white rounded-full">
-        &#10094;
-      </button>
-      <button id="nextBtn" class="absolute top-1/2 right-0 transform -translate-y-1/2 px-4 py-2 bg-black bg-opacity-50 text-white rounded-full">
-        &#10095;
-      </button>
-
+       
+        <button id="prev" class="absolute left-8 top-1/2 transform -translate-y-1/2 bg-black text-white p-3 rounded-full opacity-60 hover:opacity-100">
+            &#10094;
+        </button>
+        <button id="next" class="absolute right-8 top-1/2 transform -translate-y-1/2 bg-black text-white p-3 rounded-full opacity-60 hover:opacity-100">
+            &#10095;
+        </button>
     </div>
 
-  </div>
-
-  <section id="section1" class=" py-16">
+  <section id="section1" class=" hello py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-5xl font-bold text-center text-gray-800 mb-8">About Us</h2>
       <div class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-16">
-        <!-- Left side: Image or team photo -->
+        
         <div class="w-full md:w-1/2">
           <img src="https://media.licdn.com/dms/image/v2/D563DAQFHOq9_bL0kTg/image-scale_191_1128/image-scale_191_1128/0/1728036133463/future_mobility_media_cover?e=2147483647&v=beta&t=tCOT9ECXGdfxGHBl6mrwfPe9kfmd4M-FIGCQj770w3Y" alt="Team photo" class="setting shadow-lg">
         </div>
         
-        <!-- Right side: About Us content -->
+        
         <div class="w-full md:w-1/2 text-center md:text-left">
           <p class="text-lg italic text-gray-700 mb-4">We are a passionate team dedicated to providing the best services and solutions to our clients. With years of experience in the industry, we work tirelessly to ensure the success and growth of your business.</p>
           <p class="text-lg italic text-gray-700 mb-4">Future Mobility Media is the most reliable platform for you to understand and connect with the evolving world of the automotive industry. Thank you for choosing us as your trusted source of information.</p>
